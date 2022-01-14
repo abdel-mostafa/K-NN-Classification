@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 
-data = pd.read_csv('c:\\Users\\Abdulrahman\\Desktop\\Machine Learning\\seeds_dataset.csv')
+data = pd.read_csv('................................\seeds_dataset.csv')
 data.replace('?', -99999, inplace=True)
 
 x = data.iloc[:, :7]
